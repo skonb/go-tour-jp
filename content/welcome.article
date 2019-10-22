@@ -53,6 +53,7 @@ Go Tour は他の言語でも利用できます:
 
 The tour is available in other languages:
 
+- [[https://tour.golang.org/][English - 英語]]
 - [[https://go-tour-br.appspot.com/][Brazilian Portuguese — Português do Brasil]]
 - [[https://go-tour-ca.appspot.com/][Catalan — Català]]
 - [[https://go-tour-de.appspot.com/][German — Deutsch]]
@@ -61,7 +62,6 @@ The tour is available in other languages:
 - [[https://go-tour-id2.appspot.com/][Indonesia — Bahasa]]
 - [[https://go-tour-ita.appspot.com/][Italian — Italiano]]
 - [[https://go-tour-he.appspot.com/][Hebrew — עִבְרִית]]
-- [[https://go-tour-jp.appspot.com/][Japanese — 日本語]]
 - [[https://go-tour-kr.appspot.com/][Korean — 한국어]]
 - [[https://go-tour-ro.appspot.com/][Romanian — Română]]
 - [[https://tour.go-zh.org/][Simplified Chinese — 中文(简体)]]
