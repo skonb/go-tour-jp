@@ -25,7 +25,7 @@ Go Tour は、一連のスライドと演習課題(Exercise)で構成されて�
 で移動できます。
 
 Go Tour はインタラクティブです。
-[[javascript:highlightAndClick("#run")][Runボタンをクリック]](もしくは `shift-enter`)
+[[javascript:highlightAndClick("#run")][Runボタンをクリック]](もしくは `Shift` + `Enter`)
 すると、コードが
 #appengine: リモートのサーバ
 このコンピュータ
@@ -36,7 +36,7 @@ Go Tour はインタラクティブです。
 
 さっそくコードを修正し、実行してみましょう。
 
-[[javascript:highlightAndClick("#format")][Formatボタンをクリック]]、または `ctrl-enter` でコードをフォーマット(整形)します。
+[[javascript:highlightAndClick("#format")][Formatボタンをクリック]]、または `Ctrl` + `Enter` でコードをフォーマット(整形)します。
 これは [[https://golang.org/cmd/gofmt/][gofmt]] コマンドを利用しています。
 Goのコードを書く際は、必ずこのツールを一緒に使いましょう。
 [[javascript:highlightAndClick(".syntax-checkbox")][syntaxボタンをクリック]]するとシンタックスハイライトの切り替えができます。
@@ -53,23 +53,28 @@ Go Tour は他の言語でも利用できます:
 
 The tour is available in other languages:
 
+- [[https://go-tour-ar.appspot.com/][Arabic — العربية]]
 - [[https://go-tour-br.appspot.com/][Brazilian Portuguese — Português do Brasil]]
 - [[https://go-tour-ca.appspot.com/][Catalan — Català]]
-- [[https://go-tour-de.appspot.com/][German — Deutsch]]
-- [[https://go-tour-es.appspot.com/][Spanish — Español]]
+- [[https://tour.go-zh.org/][Simplified Chinese — 中文（简体）]]
+- [[https://go-tour-zh-tw.appspot.com/][Traditional Chinese — 中文（繁體）]]
+- [[https://go-tour-cz.appspot.com/][Czech — Česky]]
 - [[https://go-tour-fr.appspot.com/][French — Français]]
-- [[https://go-tour-id2.appspot.com/][Indonesia — Bahasa]]
-- [[https://go-tour-ita.appspot.com/][Italian — Italiano]]
+- [[https://go-tour-de.appspot.com/][German — Deutsch]]
 - [[https://go-tour-he.appspot.com/][Hebrew — עִבְרִית]]
+- [[https://go-tour-id2.appspot.com/][Indonesian — Bahasa Indonesia]]
+- [[https://go-tour-ita.appspot.com/][Italian — Italiano]]
 - [[https://go-tour-jp.appspot.com/][Japanese — 日本語]]
 - [[https://go-tour-kr.appspot.com/][Korean — 한국어]]
 - [[https://go-tour-ro.appspot.com/][Romanian — Română]]
-- [[https://tour.go-zh.org/][Simplified Chinese — 中文(简体)]]
-- [[https://go-tour-zh-tw.appspot.com/][Traditional Chinese — 中文(繁體)]]
+- [[https://go-tour-ru-ru.appspot.com/][Russian - Русский]]
+- [[https://gotour-es.appspot.com/][Spanish — Español]]
+- [[https://go-tour-th.appspot.com/][Thai - ภาษาไทย]]
+- [[https://go-tour-turkish.appspot.com/][Turkish - Türkçe]]
 - [[https://go-tour-ua.appspot.com/][Ukrainian — Українська]]
 - [[https://go-tour-uz.appspot.com/][Uzbek — Ўзбекча]]
-- [[https://go-tour-turkish.appspot.com/][Turkish - Türkçe]]
-- [[https://go-tour-ru-ru.appspot.com/][Russian - Русский]]
+
+[[javascript:highlightAndClick(".next-page")]["next" ボタンをクリック]] するか `PageDown` で進みましょう。
 
 #appengine: * Go offline
 #appengine: 
@@ -109,7 +114,7 @@ The tour is available in other languages:
 #appengine: playgroundは、最新の安定バージョンのGoを利用します。
 #appengine: 
 #appengine: 詳細は、 "[[https://blog.golang.org/playground][Inside the Go Playground]]" を読んでみてください。
-#appengine: 
+#appengine:
 #appengine: .play welcome/sandbox.go
 
 * Congratulations

@@ -303,9 +303,13 @@ nil の `error` は成功したことを示し、 nilではない `error` は失
 
 メソッドを実装し、 `error` インタフェースを満たすようにします。
 
+<<<<<<< HEAD
 *注意:* `Error` メソッドの中で、 `fmt.Sprint(e)` を呼び出すことは、無限ループのプログラムになることでしょう。
 最初に `fmt.Sprint(float64(e))` として `e` を変換しておくことで、これを避けることができます。
 なぜでしょうか？
+=======
+*Note:* A call to `fmt.Sprint(e)` inside the `Error` method will send the program into an infinite loop. You can avoid this by converting `e` first: `fmt.Sprint(float64(e))`. Why?
+>>>>>>> tour/master
 
 負の値が与えられたとき、 `ErrNegativeSqrt` の値を返すように `Sqrt` 関数を修正してみてください。
 
@@ -315,7 +319,7 @@ nil の `error` は成功したことを示し、 nilではない `error` は失
 
 `io` パッケージは、データストリームを読むことを表現する `io.Reader` インタフェースを規定しています。
 
-Goの標準ライブラリには、インタフェース、ファイル、ネットワーク接続、圧縮、暗号化、などで [[https://golang.org/search?q=Read#Global][多くの実装]] があります。
+Goの標準ライブラリには、ファイル、ネットワーク接続、圧縮、暗号化などで、このインタフェースの [[https://golang.org/search?q=Read#Global][多くの実装]] があります。
 
 `io.Reader` インタフェースは `Read` メソッドを持ちます:
 
@@ -374,7 +378,7 @@ Note: `Bounds` メソッドの戻り値である `Rectangle` は、 `image` パ�
 
 * Exercise: Images
 
-前に解いた、画像ジェネレーターを覚えていますか？
+前に解いた、 [[/moretypes/18][画像ジェネレーター]]　を覚えていますか？
 今回は、データのスライスの代わりに `image.Image` インタフェースの実装を返すようにしてみましょう。
 
 自分の `Image` 型を定義し、 [[https://golang.org/pkg/image/#Image][インタフェースを満たすのに必要なメソッド]] を実装し、 `pic.ShowImage` を呼び出してみてください。
